@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:810808609938:function:383c42e6-23ca-4abd-afc9-e5689a0bf333:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:810808609938:function:383c42e6-23ca-4abd-afc9-e5689a0bf333:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:810808609938:function:383c42e6-23ca-4abd-afc9-e5689a0bf333:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:810808609938:function:383c42e6-23ca-4abd-afc9-e5689a0bf333:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "de-DE": {
+          "name": "Verzweigungen"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
